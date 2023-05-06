@@ -1,0 +1,58 @@
+.fullbody{
+    background: #cbcbcb;
+}
+
+.about{
+    background: antiquewhite;
+    border-radius: 80px 10px;
+    margin: 80px;
+    box-shadow: 0px 0px 10px transparent  ;
+    transition: box-shadow 0.3s ease-in-out;
+    background-image: url("{% static 'images/background.jpg' %}");
+}
+.about:hover{
+   
+    box-shadow: 10px 10px 20px 0px #131312;
+
+}
+.education{
+      background: antiquewhite;
+    border-radius: 80px 10px;
+    margin: 80px;
+    box-shadow: 0px 0px 10px transparent  ;
+    transition: box-shadow 0.3s ease-in-out;
+    background-image: url("images/background2.jpg");
+
+}
+.education:hover{
+    box-shadow: 10px 10px 20px 0px #131312;
+
+}
+.forms{
+      background: antiquewhite;
+    border-radius: 80px 10px;
+    margin: 80px;
+    box-shadow: 0px 0px 10px transparent  ;
+    transition: box-shadow 0.3s ease-in-out;
+    background-image: url("images/dark.jpeg");
+    color: beige;
+    transition: margin 1s ease-in-out;
+
+}
+.forms:hover{
+    box-shadow: 10px 10px 20px 0px #131312;
+    margin: -1px ;
+}
+.startup{
+    background-image: url("images/animation back2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sliderbody{
+    width: 100px;
+    height: 100px;
+}
+.carousel-control-prev,
+.carousel-control-next {
+  display: none;
+}
